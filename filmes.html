@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Filmes - MIGUEL Portal Notícias</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="topbar-container">
+        <!-- Logo -->
+        <a href="index.html" class="logo">
+          <div class="logo-icon">Globe</div>
+          <div class="logo-text">
+            <div class="brand">MIGUEL</div>
+            <div class="sub">PORTAL NOTÍCIAS</div>
+          </div>
+        </a>
+
+        <!-- Menu + Busca -->
+        <div class="topbar-center">
+          <form class="search" onsubmit="event.preventDefault();">
+            <input
+              type="search"
+              placeholder="O Que Procura"
+              aria-label="Buscar notícias"
+            />
+            <button type="submit" aria-label="Pesquisar">Search</button>
+          </form>
+
+          <nav class="tags">
+            <a href="index.html" class="tag primary">Início</a>
+            <a href="anime.html" class="tag">Anime</a>
+            <a href="jogos.html" class="tag">Jogos</a>
+            <a href="filmes.html" class="tag">Filmes</a>
+          </nav>
+        </div>
+
+        <!-- Botões da direita -->
+        <div class="actions">
+          <a href="contato.html" class="btn outline">Contato</a>
+          <a href="acesso.html" class="btn outline">Acessar</a>
+          <a href="ajuda.html" class="btn outline">Ajuda</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="featured">
+        <h1 class="section-title">Filmes</h1>
+        <p style="text-align: center; color: #888; margin: 2rem 0">
+          Em breve as melhores notícias e lançamentos de cinema!
+        </p>
+      </section>
+
+      <!-- Aqui você pode colocar o grid de notícias depois -->
+      <div class="grid-container">
+        <!-- Exemplo de card (pode repetir quantos quiser) -->
+        <!--
+      <article class="news-card">
+        <div class="card-image"><img src="img/filme.jpg" alt=""></div>
+        <div class="card-content">
+          <h3><a href="#">Título da notícia</a></h3>
+          <div class="card-meta">5 de dezembro de 2025</div>
+          <a href="#" class="card-link">Ler mais →</a>
+        </div>
+      </article>
+      --></div>
+    </main>
+
+    <footer
+      class="site-footer"
+      style="
+        text-align: center;
+        padding: 3rem 1rem;
+        color: #666;
+        margin-top: 5rem;
+        border-top: 1px solid #333;
+      "
+    >
+      © 2025 MIGUEL - Portal Notícias. Todos os direitos reservados.
+    </footer>
+  </body>
+</html>
